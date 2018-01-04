@@ -34,5 +34,5 @@ git branch foo
 ```
 - changer de branche :
 ```git
-git checkout
+git checkout <branche>
 ```
