@@ -29,4 +29,6 @@ Ouvrir **Github** et créer un nouveau repository
 
 ```git log --decorate --graph``` : permet de donner l'historique des commits, avec un graphique représentant les branches sur le côté
 
+```git push -u origin nombranche``` : permet d'ajouter a GitHub une nouvelle branche (en la pushant)
+
 
