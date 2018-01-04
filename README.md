@@ -30,9 +30,13 @@ git log --decorate --graph //meilleure présentation
 ```
 - créer une branche :
 ```git
-git branch foo
+git branch <branche>
 ```
 - changer de branche :
 ```git
 git checkout <branche>
+```
+- merge une branche :
+```git
+git merge <branche>
 ```
