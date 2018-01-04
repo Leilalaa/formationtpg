@@ -12,7 +12,17 @@ Ouvrir **Github** et créer un nouveau repository
 ## Commandes utiles de Git
 
 ```git checkout``` : permet de se placer sur une branche donnée
+
 ```git branch``` : permet de créer une nouvelle branche
+
 ```git stash``` : permet de "mettre de côté" du code en attendant de le commiter 
+
 ```git fetch``` : permet de réccupérer l'historique, avant de faire un push par exemple
+
 ```git push``` : permet de "pusher" son code fait en local vers GitHub
+
+```git rebase``` : Permet de donner un rendu plus clair que merge pour associer deux branches
+
+```git log --decorate --graph``` : permet de donner l'historique des commits, avec un graphique représentant les branches sur le côté
+
+> Ceci est un test de citation 
