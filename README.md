@@ -1,38 +1,32 @@
-# TP2git : Memo git
+Decouverte des fichiers readme
+==============================
 
-Memo sur les commandes utiles à utiliser dans **git**
+## Utilisation du Markdown
 
-- initialiliser un repository **git** :
-```git
-git init
-```
-- ajouter les nouveaux fichiers ou les fichiers modifiés au **commit** :
-```git
-git add . //tout ajouter
-git add <File> // ajouter un fichier spécifique
-```
-- commiter un commit avec un message:
-```git
-git commit -m "message"
-```
-- afficher le statut (nouveaux fichiers, fichiers modifiés..) du repository:
-```git
-git statut
-```
-- afficher les modifications depuis le dernier commit:
-```git
-git diff
-```
-- afficher le log du repository:
-```git
-git log
-git log --decorate --graph //meilleure présentation
-```
-- créer une branche :
-```git
-git branch foo
-```
-- changer de branche :
-```git
-git checkout <branche>
-```
+Ouvrir **Github** et créer un nouveau repository
+
+1. Créer un nouveau projet
+2. Ajouter un fichier README.MD
+3. Editer le fichier README.MD pour ajouter les commandes utiles de Git
+
+## Commandes utiles de Git
+
+> Ceci est un test de citation 
+
+```git checkout``` : permet de se placer sur une branche donnée
+
+```git branch``` : permet de créer une nouvelle branche
+
+```git stash``` : permet de "mettre de côté" du code en attendant de le commiter 
+
+```git commit -m "votre message"``` : permet de comitter son code localement avec un message
+
+```git fetch``` : permet de réccupérer l'historique, avant de faire un push par exemple
+
+```git push``` : permet de "pusher" son code fait en local vers GitHub
+
+```git rebase``` : Permet de donner un rendu plus clair que merge pour associer deux branches
+
+```git log --decorate --graph``` : permet de donner l'historique des commits, avec un graphique représentant les branches sur le côté
+
+```git push -u origin nombranche``` : permet d'ajouter a GitHub une nouvelle branche (en la pushant)
